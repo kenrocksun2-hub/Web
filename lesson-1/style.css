@@ -1,3 +1,8 @@
+body {
+	overflow-x: hidden;
+}
+
+
 h1 {
 	color: red;
 	text-transform: uppercase;
@@ -16,12 +21,12 @@ h1 {
 	color: white;
 	width: fit-content;
 	padding: 0.5em 2em;
-	transition: 5s;
+	transition: 3.25s;
 }
 
 .text[data-active=true] {
 	background-color: green;
-	font-size: 30px;
+	font-size: 20px;
 	border-radius: 100px;
 }
 
@@ -37,7 +42,7 @@ section {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 80px;
+	font-size: 10vw;
 	letter-spacing: 0.1em;
 	align-content: center;
 	text-align: center;
